@@ -1,0 +1,160 @@
+body {
+  background-image: url("video-conference-5230746_640.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.container {
+  text-align: center;
+}
+
+.video-container {
+  margin-top: 50px;
+  max-width: 60vb;
+  max-height: 60vb;
+}
+
+.video-image {
+  max-width: 60vb;
+  max-height: 60vb;
+}
+
+.conference-options {
+  margin-top: 30px;
+}
+
+#join-form {
+  margin-top: 30px;
+}
+
+#join-options-link,
+#join-options-code {
+  margin-top: 20px;
+}
+
+.container1 {
+  text-align: center;
+
+}
+
+.container2 {
+  text-align: left;
+  width: 60vb;
+  color: #000;
+  font-weight: bold;
+
+}
+
+main {
+  padding: 40px;
+}
+
+#local-video {
+  width: 50%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.remote-video {
+  width: 150px;
+  height: 75px;
+  margin: 10px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#chat-container {
+  margin-top: 20px;
+}
+
+#messages {
+  height: 150px;
+  width: 400px;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+#message-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon-container i {
+  font-size: 24px;
+  color: #007bff;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.icon-container i:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  #local-video {
+    width: 100%;
+  }
+
+  .remote-video {
+    width: 120px;
+    height: 60px;
+  }
+
+  #messages {
+    width: 100%;
+  }
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  color: #6c757d;
+}
+
+.text-black {
+  color: #000;
+  font-weight: bold;
+}
